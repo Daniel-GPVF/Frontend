@@ -1,17 +1,36 @@
-/*
+/**/
 * {
-
-}
-*/
-
-div{
-    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.banane{
-    background-color: yellow;
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(50, 50, 50);
+}
+h1{
+    color: aliceblue;
 }
 
-#apfel{
-    background-color: red;
+h2{
+    color: aliceblue;
+}
+
+p{
+    color: aliceblue;
+}
+
+a{
+    color: aliceblue;
+}
+
+a:visited{
+    color: lightgray;
+}
+
+#div1{
+    background-color: aliceblue;
+    padding: 5pt;
+    width: max-content;
+    border-radius: 10rem;
+    
 }
