@@ -1,6 +1,6 @@
 
-
-/*function klickreaction (parameter) {
+/*
+function klickreaction (parameter) {
     theDiv.style.color = "red";
     theDiv.style.backgroundColor = "blue"
     theDiv2.style.color = "white"
@@ -23,9 +23,8 @@ document.getElementById("link1").addEventListener("click", klickreaction);
 // --- dark mode toggle ---
 
 const checkbox = document.getElementById("checkbox");
-const headline = document.getElementById("h1")
 
 checkbox.addEventListener("change", () => {
     // change the theme of the website
-    document.body.classList.toggle("dark")
+    document.body.classList.toggle("dark");
 });
