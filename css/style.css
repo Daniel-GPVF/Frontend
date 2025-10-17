@@ -1,10 +1,7 @@
 /**/
-* {
-    font-family: Arial, Helvetica, sans-serif;
-}
+* {}
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(50, 50, 50);
 }
 
@@ -54,14 +51,6 @@ h2{
     color: aliceblue;
 }
 
-p{
-    color: aliceblue;
-}
-
-a{
-    color: aliceblue;
-}
-
 a:visited{
     color: lightgray;
 }
@@ -71,4 +60,102 @@ a:visited{
     padding: 5pt;
     width: max-content;
     border-radius: 10rem;
+}
+
+
+
+/* SIMon-Card nachbauen */
+@font-face {
+    font-family: Rubik-Black;
+    src: url(../fonts/Rubik-Black.ttf);
+}
+
+@font-face {
+    font-family: RobotoCondensed-Regular;
+    src: url(../fonts/RobotoCondensed-Regular.ttf);
+}
+
+/* SIMon Nav */
+
+.SIMonNAV ul {
+    font-family: 'RobotoCondensed-Regular';
+    position: relative;
+    top: 0;
+    left: 0;
+    list-style-type: none;
+    background-color: rgb(255, 255, 255);
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.SIMonNAV li {
+    float: left;
+}
+
+.SIMonNAV a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 20px 10px 20px 10px;
+    display: block;
+    text-align: center;
+}
+
+.SIMonNAV a:hover {
+    color: #8F1CD6;
+}
+
+/* SIMon body */
+
+.SIMondiv {
+    font-family: 'RobotoCondensed-Regular';
+    background-color: #FFFF00;
+    width: fit-content;
+    height: fit-content;
+}
+
+.bodydiv {
+    padding: 20px;
+}
+
+.bodydiv h2 {
+    margin: 0;
+    padding: 5px;
+}
+
+.headline {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 0;
+    left: 16px;
+    font-family: 'Rubik-Black';
+}
+
+.h2top p {
+    margin: 0;
+    padding: 6px;
+    background-color: blueviolet;
+    display: inline;
+}
+
+.h2bottom p {
+    display: inline;
+    background-color: blueviolet;
+    padding: 6px;
+    margin-left: 10px;
+}
+
+.bodydiv ul {
+    position: relative;
+    top: 0;
+    left: 15px;
+    padding: 0;
+    list-style-image: url(../img/check-solid-full.svg);
+}
+
+.basetext {
+    position: relative;
+    top: 0;
+    left: 16px;
 }
