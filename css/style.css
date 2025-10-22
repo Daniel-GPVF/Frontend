@@ -1,6 +1,4 @@
 /**/
-* {}
-
 body{
     background-color: rgb(50, 50, 50);
 }
@@ -39,10 +37,6 @@ body{
     background-color: black;
 }
 
-.headerimage {
-    
-}
-
 h1{
     color: aliceblue;
 }
@@ -51,9 +45,11 @@ h2{
     color: aliceblue;
 }
 
+/*
 a:visited{
     color: lightgray;
 }
+*/
 
 #div1{
     background-color: aliceblue;
@@ -156,14 +152,14 @@ a:visited{
     list-style-image: url(../img/check-solid-full.svg);
 }
 
-/*
+
 .basetext li::before {
     content: "✓";
     vertical-align: middle;
     font-size: 16px;
     color: #8F1CD6;
 }
-*/
+
 
 .fa :checked{
         content: "✓";
@@ -175,20 +171,48 @@ a:visited{
     left: 16px;
 }
 
-/* SIMon Nachbauen, versuch 2 */
-
-
-
+/*
+*SIMon Nachbauen, versuch 2 (mit Flexbox)
+*/
 .SIMon2 {
     display: flex;
     flex-direction: column;
     width: fit-content;
     background-color: #FFFF00;
+    align-items: center;
+}
+
+/*
+*SIMon2 NAV*/
+
+.SIMonNAV2 {
+    display: flex;
+    justify-content: center;
+    background-color: white;
 }
 
 .SIMonNAV2 ul{
     display: flex;
+    flex-direction: row;
     list-style-type: none;
+    padding: 0;
+    gap: 20px;
+}
+
+.SIMonNAV2 li {
+}
+
+.SIMonNAV2 a {
+    text-decoration: none;
+    color: black;
+    justify-content: space-evenly;
+}
+
+/* SIMon body */
+
+.bodydiv {
+    display: flex;
+    flex-direction: column;
 }
 
 /* Flexbox Übung */
