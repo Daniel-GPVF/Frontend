@@ -1,112 +1,165 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="description" content="Übungsdatei für meine Frontend Station"/>
-    <meta name="date" content="01.10.2025"/>
-    <meta name="author" content="Daniel Gil Pelle"/>
-    <link rel="icon" href="./img/html-icon.png"/>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Übungsdatei für meine Frontend Station" />
+    <meta name="date" content="01.10.2025" />
+    <meta name="author" content="Daniel Gil Pelle" />
+    <link rel="icon" href="./img/html-icon.png" />
 
     <!-- ccs einbettung -->
-    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="stylesheet" href="./css/style.css" />
 
     <!-- JavaScript einbettung -->
     <script src="./js/script.js" defer></script>
 
     <title>Frontend Übung</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav class="navbar" aria>
-            <ul>
-                <li><a href="./html/darkmode.html">Darkmode</a></li>
-                <li><a href="./html/Array.html">Array</a></li>
-                <li><a href="./html/JavaScriptÜbung.html">JavaScript</a></li>
-                <li><a href="../html/SIMon.html">SIMon</a></li>
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="./html/Flexbox.html">Flexbox</a></li>
-            </ul>
-        </nav>
+      <nav class="navbar" aria>
+        <ul>
+          <li><a href="./html/darkmode.html">Darkmode</a></li>
+          <li><a href="./html/Array.html">Array</a></li>
+          <li><a href="./html/JavaScriptÜbung.html">JavaScript</a></li>
+          <li><a href="../html/SIMon.html">SIMon</a></li>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="./html/Flexbox.html">Flexbox</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <!--  -->
-        <img src="./img/Frontend-Development_Header.webp" id="headerimage" alt="header" width="1000" height="470"/>
-        <h1>Frontend Übung</h1>
-        <hr>
-            <h2>Allgemeines</h2>
-            <p>Hallo</p>
-            <a href="https://www.w3schools.com">W3schools</a>
+      <img
+        src="./img/Frontend-Development_Header.webp"
+        id="headerimage"
+        alt="header"
+        width="1000"
+        height="470"
+      />
+      <h1>Frontend Übung</h1>
+      <hr />
+      <h2>Allgemeines</h2>
+      <p>Hallo</p>
+      <a href="https://www.w3schools.com">W3schools</a>
 
-        <hr>
-            <h2>HTML</h2>
-            <p>The language for building web pages</p>
-            <figure>
-                <img src="./img/html-icon.png" alt="html-icon" width="520" height="591" loading="lazy">
-                <figcaption>html-icon</figcaption>
-            </figure>
-            <figure>
-                <figcaption>Beispiel Code für HTML</figcaption>
-                <p>
-                    <code>&lt;h1&gt;Hello World&lt;/h1&gt;</code>
-                </p>
-            </figure>
-            <aside>
-                <details>
-                    <summary>Was ist <mark>1 + 1</mark></summary>
-                    <p>2</p>
-                </details>
-            </aside>
-            <br>
-            <table>
-                <tr>
-                    <td>
-                        <time datetime="08:00">8am</time> - <time datetime="11:00">11am</time>
-                        <td>Write Code</td>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <time datetime="11:00">8am</time> - <time datetime="12:00">12pm</time>
-                        <td>Eat Lunch</td>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <time datetime="12:00">12am</time> - <time datetime="17:00">5pm</time>
-                        <td>Study for other Courses</td>
-                    </td>
-                </tr>
-            </table>
-        <hr>
-            <h2>CSS</h2>
-            <p>The language for styling web pages</p>
-            <figure>
-                <img src="./img/css-icon.png" alt="css-icon" width="396" height="448" loading="lazy">
-                <figcaption>css-icon</figcaption>
-            </figure>
-        <hr>
-            <h2>JavaScript</h2>
-            <p>The language for programming web page</p>
-            <figure>
-                <img src="./img/js-icon.png" alt="JavaScript-icon" width="662" height="752" loading="lazy">
-                <figcaption>html-icon</figcaption>
-            </figure>
+      <hr />
+      <h2>HTML</h2>
+      <p>The language for building web pages</p>
+      <figure>
+        <img
+          src="./img/html-icon.png"
+          alt="html-icon"
+          width="520"
+          height="591"
+          loading="lazy"
+        />
+        <figcaption>html-icon</figcaption>
+      </figure>
+      <figure>
+        <figcaption>Beispiel Code für HTML</figcaption>
+        <p>
+          <code>&lt;h1&gt;Hello World&lt;/h1&gt;</code>
+        </p>
+      </figure>
+      <aside>
+        <details>
+          <summary>Was ist <mark>1 + 1</mark></summary>
+          <p>2</p>
+        </details>
+      </aside>
+      <br />
+      <table>
+        <caption>
+          My Daily Schedule
+        </caption>
+        <thead>
+          <tr>
+            <th>&nbsp;</th>
+            <th scope="col">Time</th>
+            <th scope="col">Activity</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Morning</th>
+            <td>
+              <time datetime="08:00">8am</time> -
+              <time datetime="11:00">11am</time>
+            </td>
+            <td>Write Code</td>
+          </tr>
+          <tr>
+            <th scope="row">Break</th>
+            <td>
+              <time datetime="11:00">11am</time> -
+              <time datetime="12:00">12pm</time>
+            </td>
+            <td>Eat Lunch</td>
+          </tr>
+          <tr>
+            <th scope="row">Afternoon</th>
+            <td>
+              <time datetime="12:00">12am</time> -
+              <time datetime="17:00">5pm</time>
+            </td>
+            <td>Study for other Courses</td>
+          </tr>
+          <tr>
+            <th scope="row">Evening</th>
+            <td rowspan="2">All other Times</td>
+            <td>Free Time</td>
+          </tr>
+          <tr>
+            <th scope="row">Night</th>
+            <td>sleep</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3">
+              colspan="2">And that's what I do every day, 5 days a week. Just
+              eat, sleep, code ..and recharge!
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+      <hr />
+      <h2>CSS</h2>
+      <p>The language for styling web pages</p>
+      <figure>
+        <img
+          src="./img/css-icon.png"
+          alt="css-icon"
+          width="396"
+          height="448"
+          loading="lazy"
+        />
+        <figcaption>css-icon</figcaption>
+      </figure>
+      <hr />
+      <h2>JavaScript</h2>
+      <p>The language for programming web page</p>
+      <figure>
+        <img
+          src="./img/js-icon.png"
+          alt="JavaScript-icon"
+          width="662"
+          height="752"
+          loading="lazy"
+        />
+        <figcaption>html-icon</figcaption>
+      </figure>
 
-        <hr>
-            <address>
-                Beispiel Addresse
-            </address>
-        <hr>
-        &lt;&lt;&lt; &copy; <a href="./html/about.html">Daniel Gil Pelle</a> &gt;&gt;&gt;
-
+      <hr />
+      <address>Beispiel Addresse</address>
+      <hr />
+      &lt;&lt;&lt; &copy;
+      <a href="./html/about.html">Daniel Gil Pelle</a> &gt;&gt;&gt;
     </main>
     <p>
-        <a href="#">Back to Top</a>
+      <a href="#">Back to Top</a>
     </p>
-    <footer>
-
-    </footer>
-</body>
+    <footer></footer>
+  </body>
 </html>
